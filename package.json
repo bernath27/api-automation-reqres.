@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/saucedemo.mocha.hooks.js -t 0",
-    "test:all": "mocha",
-    "checkout": "mocha test/checkout/*.js"
+     "test": "mocha test/loginTestScreenshot.js -t 0",
+     "test:all" : "mocha"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+ "keywords": [],
+"author": "",
+"license": "ISC",
+"type": "commonjs",
   "dependencies": {
+    "canvas": "^3.1.0",
     "resemblejs": "^5.0.0",
     "selenium-webdriver": "^4.29.0",
     "seleniumdigital": "file:"
